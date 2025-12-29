@@ -2,7 +2,10 @@
 Este repositório contém a solução de um desafio proposto pela plataforma DIO, inspirado na apresentação de Steve Jobs durante o lançamento do iPhone em 2007. O objetivo do projeto é aplicar e consolidar conceitos fundamentais da Programação Orientada a Objetos (POO), como abstração, encapsulamento, uso de interfaces e polimorfismo, por meio da modelagem e implementação das funcionalidades do dispositivo iPhone.
 
 # Diagrama
-classDiagram
+    iPhone implements ReprodutorMusical
+    iPhone implements AparelhoTelefonico
+    iPhone implements NavegadorInternet
+    classDiagram
     class ReprodutorMusical {
         <<interface>>
         +tocar()
@@ -36,6 +39,4 @@ classDiagram
         +atualizarPagina()
     }
 
-    iPhone implements ReprodutorMusical
-    iPhone implements AparelhoTelefonico
-    iPhone implements NavegadorInternet
+    
