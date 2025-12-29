@@ -8,7 +8,7 @@ public class Iphone implements Telefone, Reprodutor, Navegador {
 
     // Funções do Telefone
     public void ligar (String numero){
-        System.out.println("Ligando...");
+        System.out.println("Ligando para o número " + numero);
     }
     public void atender (){
         System.out.println("Atendendo...");
@@ -25,12 +25,12 @@ public class Iphone implements Telefone, Reprodutor, Navegador {
         System.out.println("Pausando");
     }
     public void selecionarMusica (String musica){
-        System.out.println("Tocando uma música");
+        System.out.println("A música selecionada é " + musica);
     }
 
     // Funções do Navegador
     public void acessarWeb (String url){
-        System.out.println("Acessando a Web");
+        System.out.println("Acessando a página " + url);
     }
     public void adicionarPagina (){
         System.out.println("Adicionando uma página");
