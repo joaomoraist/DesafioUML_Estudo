@@ -8,7 +8,7 @@ Este repositório contém a solução de um desafio proposto pela plataforma DIO
 classDiagram
     class ReprodutorMusical {
         <<interface>>
-        +tocar()
+        +tocarMusica()
         +pausar()
         +selecionarMusica(String musica)
     }
@@ -22,8 +22,8 @@ classDiagram
 
     class NavegadorInternet {
         <<interface>>
-        +exibirPagina(String url)
-        +adicionarNovaAba()
+        +acessarWeb(String url)
+        +adicionarPagina()
         +atualizarPagina()
     }
 
